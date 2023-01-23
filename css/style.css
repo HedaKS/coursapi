@@ -10,23 +10,28 @@ body
     overflow: hidden;
 }
 
-#button
+.resettext
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 50px;
-    width: 150px;
+    position: absolute;
+    top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
     font-size: 24px;
     font-weight: 1000;
     text-transform: uppercase;
-    border-radius: 15px;
+}
+
+#button
+{
+    position: absolute;
+    top: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
     color: white;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    margin: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 50px;
 }
 
 #button:hover
@@ -34,8 +39,17 @@ body
     cursor: pointer;
 }
 
+#imgpokemon
+{
+    position: absolute;
+    top: 150px;
+}
+
+
 #citation
 {
+    top: 500px;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,4 +64,34 @@ body
     border: 2px solid rebeccapurple;
     background-color: rgb(255, 255, 255); 
     margin: 50px;
+}
+
+
+.stoptext
+{
+    position: absolute;
+    top: 650px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+#stopButton
+{
+    position: absolute;
+    top: 720px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 132, 255);
+    margin-bottom: 50px;
+}
+
+#stopButton:hover
+{
+    cursor: pointer;
 }
